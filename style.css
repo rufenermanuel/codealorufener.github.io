@@ -1,0 +1,72 @@
+#personPic {
+  height: 7em;
+  border-radius: 50%;
+}
+
+.logos {
+  height: 3em;
+  border-radius: 15%;
+}
+#contBody {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+#contHeader {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  padding-left: 25%;
+  border-color: salmon;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 40px;
+}
+#navBar {
+  grid-column: 1;
+  grid-row: 2/5;
+}
+
+#contMain {
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
+
+#contFooter {
+  grid-column: 1/4;
+  grid-row: 5;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+}
+.contCard {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+}
+.companyLogo {
+  width: 3em;
+}
+.position {
+  font-weight: bold;
+  margin: 0cm;
+}
+.companyName {
+  font-weight: bold;
+  font-size: 0.9 em;
+  margin: 0.2em;
+}
+.period {
+  font-size: 0.7 em;
+  margin: 0.2em;
+}
+.taskList {
+  font-size: 0.9 em;
+  margin: 0.2em;
+  list-style: square;
+}
+
+#contContact{
+position: fixed;
+}
